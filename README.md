@@ -9,6 +9,7 @@ Play a random song from your Spotify playlists. This Python project uses Spotify
 
 ### 1. Clone the Repository 
 ```git clone https://github.com/0xWiIIiam/Spotify-Random-Song.git```
+
 ```cd spotify-random-player```
 
 ### 2.Create a Spotify Developer Account
