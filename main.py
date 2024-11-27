@@ -23,7 +23,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
 def GetRandomSong():
     Playlists = sp.current_user_playlists(limit=5) # retrives 5 of the users playlists
     
-    if not Playlists['items']: # checks if there are playlists
+    if not Playlists['items']: 
         print("no playlists")
         return None
     
@@ -46,7 +46,7 @@ def GetRandomSong():
 def PlayRandomSong():
     Devices = sp.devices() # retrives devices where playback can happen
 
-    if not Devices['devices']: # if none returns
+    if not Devices['devices']: 
         print("no devices")
         return None
     
