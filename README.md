@@ -12,10 +12,10 @@ Play a random song from your Spotify playlists. This Python project uses Spotify
 
 ```cd spotify-random-player```
 
-### 3. Create a Spotify Developer Account
+### 2. Create a Spotify Developer Account
 You’ll need to create a [Spotify developer account](https://developer.spotify.com/dashboard/applications) to generate your own ID and token.
 
-### 4. Create a .env File
+### 3. Create a .env File
 In the project root directory, create a file named .env and add your Spotify credentials like so:
 
 ```SPOTIFY_CLIENT_ID=your_spotify_client_id_here```
@@ -24,8 +24,8 @@ In the project root directory, create a file named .env and add your Spotify cre
 
 ```SPOTIFY_REDIRECT_URI=http://localhost:8888/callback```
 
-### 5. Install Dependencies
+### 4. Install Dependencies
 ```pip install -r requirements.txt```
 
-### 6. Run
+### 5. Run
 ```python main.py```
