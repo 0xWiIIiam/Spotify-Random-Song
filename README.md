@@ -14,6 +14,7 @@ Play a random song from your Spotify playlists. This Python project uses Spotify
 
 ### 3. Create a .env File
 In the project root directory, create a file named .env and add your Spotify credentials like so:
+
 ```SPOTIFY_CLIENT_ID=your_spotify_client_id_here```
 
 ```SPOTIFY_CLIENT_SECRET=your_spotify_client_secret_here```
