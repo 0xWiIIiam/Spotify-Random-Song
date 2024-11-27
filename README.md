@@ -13,7 +13,7 @@ Play a random song from your Spotify playlists. This Python project uses Spotify
 ```cd spotify-random-player```
 
 ### 2.Create a Spotify Developer Account
-You’ll need to create a Spotify Developer account to generate your own ID and token.
+You’ll need to create a [Spotify developer account](https://developer.spotify.com/dashboard/applications) to generate your own ID and token.
 
 ### 4. Install Dependencies
 ```pip install -r requirements.txt```
